@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="tau-prolog.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <title>Árbol Genealógico - 201700381</title>
+    </head>
+    <body>
+        <h1>Árbol Genealógico</h1>
+        <label for="fileInput">Cargar archivo de código Prolog:</label>
+        <input type="file" id="fileInput" accept=".pl" />
+        <div id="queryInputContainer">
+        <input
+            type="text"
+            id="queryInput"
+            placeholder="Ingrese su consulta en Prolog"
+        />
+        <button onclick="runQuery()">Ejecutar</button>
+        </div>
+        <br />
+        <textarea id="output" rows="10" cols="50" readonly></textarea>
+
+        <script src="index.js"></script>
+    </body>
+</html>

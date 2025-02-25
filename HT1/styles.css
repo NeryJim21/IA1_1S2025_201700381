@@ -1,0 +1,84 @@
+:root {
+    --azul-marino: #1b3a57;
+    --corinto: #7a1f2d;
+    --blanco: #ffffff;
+    --amarillo: #e5be01;
+    --sombra: rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--azul-marino);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--blanco);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Input y Botón */
+input[type="file"],
+input[type="text"],
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin: 10px 0;
+}
+
+input[type="file"] {
+    background-color: var(--amarillo);
+    color: var(--azul-marino);
+}
+
+input[type="text"] {
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid var(--corinto);
+    text-align: center;
+}
+
+button {
+    background-color: var(--corinto);
+    color: var(--blanco);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #5c1622;
+}
+
+/* Contenedor de la consulta */
+#queryInputContainer {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Área de salida */
+textarea {
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--blanco);
+    color: var(--azul-marino);
+    border: 2px solid var(--corinto);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px var(--sombra);
+    resize: none;
+}
