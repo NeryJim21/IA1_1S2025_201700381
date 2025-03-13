@@ -1,2 +1,10 @@
-# IA1_1S2025_201700381
-Repositorio para el curso de Inteligencia Artificial 1
+# Nery Oswaldo Jiménez Contreras - 201700381
+
+## Imagen a compilar
+![imagen](./assets/smigol.jpg)
+
+## Proceso de compilación
+![compilando](./img/compilado.PNG)
+
+## Reconociendo imagen
+![escaneado](./img/escaneado.PNG)
